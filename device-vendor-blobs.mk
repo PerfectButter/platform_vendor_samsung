@@ -47,13 +47,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/toro/proprietary/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/samsung/toro/proprietary/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/samsung/toro/proprietary/libusc.so:system/vendor/lib/libusc.so
+    vendor/samsung/toro/proprietary/com.vzw.hardware.ehrpd.xml:system/etc/permissions/com.vzw.hardware.ehrpd.xml \
+    vendor/samsung/toro/proprietary/com.vzw.hardware.lte.xml:system/etc/permissions/com.vzw.hardware.lte.xml \
+    vendor/samsung/toro/proprietary/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml
 
 # All the apks necessary for toro
 PRODUCT_PACKAGES += \
-    BIP \
-    IMSFramework \
     RTN \
-    SDM \
-    SPG \
-    SyncMLSvc
+    VZWAPNLib \
+    VZWAPNService
 
